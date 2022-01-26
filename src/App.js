@@ -14,7 +14,7 @@ const App = () => {
     <React.StrictMode>
       <NavBar />
       <Hero />
-      {Data}
+      <section className="card-wrapper">{Data}</section>
     </React.StrictMode>
   );
 };

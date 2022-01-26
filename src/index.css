@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   box-sizing: border-box;
   margin: 0;
@@ -17,31 +20,77 @@ body {
 .hero-wrapper {
   display: flex;
   flex-direction: column;
-  align-self: center;
+  margin-bottom: 0px;
+  padding: 20px;
 }
 
-.hero-images {
-  margin: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 0px;
+.hero-image {
+  width: 700px;
+  align-self: center;
 }
 
 .hero-title {
   margin-top: 32px;
-  padding-left: 20px;
-}
-
-.title {
-  font-size: 36px;
-  font-weight: 600;
-  line-height: 110%;
   margin-bottom: 0px;
+  overflow: hidden;
+
+  text-overflow: ellipsis;
 }
 
-.description {
+.hero-description {
   margin-top: 16px;
   max-width: 320px;
   padding-bottom: 0px;
+}
+
+.card-wrapper {
+  margin-top: 10px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 20px;
+}
+
+.image-section {
+  width: 175px;
+  font-size: 12px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-image {
+  height: 250px;
+  margin-bottom: 0px;
+  border-radius: 9px;
+}
+.review-section-wrapper {
+  margin-top: 5px;
+  display: flex;
+  align-content: center;
+  margin-bottom: 0px;
+}
+
+.star-image {
+  height: 15px;
+}
+
+.reviewCount {
+  padding-left: 3px;
+  color: #918e9b;
+}
+
+.location {
+  padding-left: 3px;
+  color: #918e9b;
+}
+
+.card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-description {
+  margin-top: auto;
 }

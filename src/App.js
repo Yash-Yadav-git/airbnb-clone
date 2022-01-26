@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import NavBar from "./components/navbar";
 import Card from "./components/card";
+import Hero from "./components/hero";
 import data from "./data.js";
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
   return (
     <React.StrictMode>
       <NavBar />
+      <Hero />
       {Data}
     </React.StrictMode>
   );

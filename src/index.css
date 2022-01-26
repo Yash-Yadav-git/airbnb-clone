@@ -1,6 +1,7 @@
 body {
   box-sizing: border-box;
   margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 .nav-warpper {
@@ -11,4 +12,36 @@ body {
 
 .logo {
   padding: 20px;
+}
+
+.hero-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.hero-images {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.hero-title {
+  margin-top: 32px;
+  padding-left: 20px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 110%;
+  margin-bottom: 0px;
+}
+
+.description {
+  margin-top: 16px;
+  max-width: 320px;
+  padding-bottom: 0px;
 }
